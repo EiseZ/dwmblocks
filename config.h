@@ -5,7 +5,7 @@ static const Block blocks[] = {
     {"^c#5e81ac^CPU ^c#ffffff^",     "$HOME/scripts/bar/cpu.sh", 10, 4},
     {"^c#5e81ac^MEM ^c#ffffff^",     "$HOME/scripts/bar/memory.sh", 10, 3},
     {"^c#5e81ac^DSK ^c#ffffff^",     "df --total -h | grep '/dev/nvme0n1p7' | awk '{ print($5) }'", 600, 2},
-	{"",	    "date +'%a %d %b - %T'",	1,	1},
+	{"",	    "date +'%a %d %b - %T '",	1,	1},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
